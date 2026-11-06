@@ -39,4 +39,8 @@
 <div class="field full"><label for="evidenceTitle">Bezeichnung *</label><input id="evidenceTitle" required maxlength="150"></div><div class="field"><label for="evidenceType">Typ</label><select id="evidenceType"><option>Dokument</option><option>Foto</option><option>Video</option><option>Zeugenaussage</option><option>Sonstiges</option></select></div><div class="field"><label for="evidenceCase">Zugehörige Akte</label><select id="evidenceCase"><option value="">Keine Zuordnung</option></select></div><div class="field full"><label for="evidenceDescription">Beschreibung</label><textarea id="evidenceDescription" rows="3" maxlength="3000"></textarea></div><div class="field full"><label for="evidenceFileName">Dateiname / Verweis (optional)</label><input id="evidenceFileName" maxlength="250" placeholder="z. B. anlage_01.pdf (wird nicht hochgeladen)"></div></div>
 <div class="modal-footer"><button type="button" class="secondary" data-close="evidenceDialog">Abbrechen</button><button type="submit" class="primary">Eintrag speichern</button></div></form></dialog>
 <dialog id="detailDialog" class="modal wide-modal"><div id="detailContent"></div><div class="modal-footer"><button class="secondary" data-close="detailDialog">Schließen</button></div></dialog><div id="toast" class="toast" role="status"></div>
-<script src="config.js"></script><script src="script.js"></script></body></html>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
